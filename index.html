@@ -17,23 +17,99 @@
         </div>
         <div class="mt-7 md:mt-10 flex justify-center">
             <nav class="">
-                <a href="#" class="uppercase mx-5 font-semibold text-sm lg:text-xl">Inicio</a>
-                <a href="#" class="uppercase mx-5 font-semibold text-sm lg:text-xl">Nosotros</a>
-                <a href="#" class="uppercase mx-5 font-semibold text-sm lg:text-xl">Aplicaciones</a>
-                <a href="#" class="uppercase mx-5 font-semibold text-sm lg:text-xl">Productos</a>
-                <a href="#" class="uppercase mx-5 font-semibold text-sm lg:text-xl">Asesoria</a>
-                <a href="#" class="uppercase mx-5 font-semibold text-sm lg:text-xl">Contacto</a>
+                <a href="#" class="uppercase mx-5 lg:mx-8 font-semibold text-sm lg:text-xl">Inicio</a>
+                <a href="#" class="uppercase mx-5 lg:mx-8 font-semibold text-sm lg:text-xl">Nosotros</a>
+                <a href="#" class="uppercase mx-5 lg:mx-8 font-semibold text-sm lg:text-xl">Aplicaciones</a>
+                <a href="#" class="uppercase mx-5 lg:mx-8 font-semibold text-sm lg:text-xl">Productos</a>
+                <a href="#" class="uppercase mx-5 lg:mx-8 font-semibold text-sm lg:text-xl">Asesoria</a>
+                <a href="#" class="uppercase mx-5 lg:mx-8 font-semibold text-sm lg:text-xl">Contacto</a>
             </nav>
         </div>
     </header>
-    
+    <!-- sliders -->
     <swiper-container class="mySwiper mt-8" pagination="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
-        <swiper-slide class="h-[40em]"><img class="min-h-[40em] w-full" src="build/img/slider1.jpg" alt="slider1"></swiper-slide>
-        <swiper-slide class="h-[40em]"><img class="min-h-[40em] w-full" src="build/img/slider2.jpeg" alt="slider2"></swiper-slide>
-        <swiper-slide class="h-[40em]"><img class="min-h-[40em] w-full" src="build/img/slider3.webp" alt="slider3"></swiper-slide>
-        <swiper-slide class="h-[40em]"><img class="min-h-[40em] w-full" src="build/img/Slider4.jpg" alt="slider4"></swiper-slide>
+        <swiper-slide class="h-[30em] md:h-[35em] lg:h-[40em]"><img class="min-h-[30em] md:min-h-[35em] lg:min-h-[40em] w-full" src="build/img/slider1.jpg" alt="slider1"></swiper-slide>
+        <swiper-slide class="h-[30em] md:h-[35em] lg:h-[40em]"><img class="min-h-[30em] md:min-h-[35em] lg:min-h-[40em] w-full" src="build/img/slider2.jpeg" alt="slider2"></swiper-slide>
+        <swiper-slide class="h-[30em] md:h-[35em] lg:h-[40em]"><img class="min-h-[30em] md:min-h-[35em] lg:min-h-[40em] w-full" src="build/img/slider3.webp" alt="slider3"></swiper-slide>
+        <swiper-slide class="h-[30em] md:h-[35em] lg:h-[40em]"><img class="min-h-[30em] md:min-h-[35em] lg:min-h-[40em] w-full" src="build/img/Slider4.jpg" alt="slider4"></swiper-slide>
       </swiper-container>
-      <p>Hola</p>
+      <!-- Video corporativo -->
+      <div class="bg-[#f3f3f3] mt-5 px-10 py-16">
+        <div class="grid md:grid-cols-2 mx-auto w-10/12">
+            <div>
+                <p>Video</p>
+                <video src="https://vimeo.com/884572695" autoplay></video>
+            </div>
+            <div class="mt-5 md:mt-0">
+                <h2 class="mt-7 md:mt-8 lg:mt-10 text-center md:text-left uppercase font-bold text-3xl text-[#373c38]">Video corporativo</h2>
+                <p class="text-justify text-xl mt-5 lg:mt-14 lg:w-10/12 leading-8 lg:leading-10 ">Conoce la trayectoria de Zave tecnoalimentaria a lo largo de sus 25 años de su fundación a traves del siguiente video corporativo, siendo la mejor opcion debido a nuestras certificaciones y tecnolgpia aplica en los alimentos.</p>
+                <div class="flex justify-center md:justify-end w-10/12 mt-10">
+                    <a href="" class="bg-blue-700 px-10 py-3 rounded-lg text-white font-bold hover:bg-blue-950">Ver más</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- Ventajas competitivas -->
+      <div class="bg-white py-10 sm:py-12">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl text-center">
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Ventajas competitivas</p>
+            <!-- <p class="mt-6 text-lg leading-8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p> -->
+          </div>
+          <div class="mx-auto mt-16 max-w-2xl  mt-10 lg:mt-24 lg:max-w-4xl">
+            <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                    </svg>
+                  </div>
+                  SOLUCIONES FUNCIONALES A SU MEDIDA
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">Desarrollamos fórmulas a la medida de acuerdo con las necesidades y disponibilidad tecnológica de nuestros clientes, buscando potenciar sabor, funcionalidad y rendimiento deseado.</dd>
+              </div>
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                    </svg>
+                  </div>
+                  LABORATORIOS DE CONTROL DE CALIDAD
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">
+                    En nuestro laboratorio realizamos análisis a todas las materias primas y productos para garantizar que cumplen con las especificaciones fisicoquímicas y organolépticas.
+                </dd>
+              </div>
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                    </svg>
+                  </div>
+                  CONTROL Y DESARROLLO DE PROVEEDORES
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">
+                    Seleccionamos y evaluamos cuidadosamente a nuestros proveedores para asegurar la inocuidad de la materia prima e insumos.
+                </dd>
+              </div>
+              <div class="relative pl-16">
+                <dt class="text-base font-semibold leading-7 text-gray-900">
+                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
+                    </svg>
+                  </div>
+                  TRAZABILIDAD COMPLETA
+                </dt>
+                <dd class="mt-2 text-base leading-7 text-gray-600">Nuestro sistema nos permite conocer todas las operaciones y procesos que se llevan a cabo en cada fase de la cadena de suministro, identificando eficazmente el historial de cada producto o ingrediente.</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 </html>
